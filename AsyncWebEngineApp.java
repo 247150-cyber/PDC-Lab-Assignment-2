@@ -2,6 +2,9 @@ public class AsyncWebEngineApp
 {
     public static void main(String[] args) {
 
+        // New change for Git commit
+        System.out.println("My PDC Lab Assignment 2");
+
         System.out.println(
             "Default JVM Thread: "
             + Thread.currentThread().getName()
