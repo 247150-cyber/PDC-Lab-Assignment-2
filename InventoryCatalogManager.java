@@ -17,7 +17,6 @@ public class InventoryCatalogManager
 {
             catalog.put("P" + i, 100);
         }
-
         return catalog;
     }
 
