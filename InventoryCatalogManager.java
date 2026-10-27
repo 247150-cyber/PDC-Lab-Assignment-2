@@ -110,8 +110,8 @@ public class InventoryCatalogManager
 
             // Display benchmark results.
             System.out.println("\nBenchmark=  " + name);
-            System.out.println("Worker Threads: " + THREADS);
-            System.out.println("Total Operations: " + completed.get());
+            System.out.println(" Worker Threads: " + THREADS);
+            System.out.println(" Total Operations: " + completed.get());
 
             System.out.printf("Execution Time: %.3f ms%n",
                     seconds * 1000);
