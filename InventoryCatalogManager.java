@@ -103,7 +103,7 @@ public class InventoryCatalogManager {
             throws InterruptedException {
 
         System.out.println("Inventory Concurrency Benchmark");
-        System.out.println("Operations per worker: " + OPERATIONS);
+        System.out.println("Operations per worker= " + OPERATIONS);
 
         benchmarkSynchronizedMap();
         benchmarkConcurrentMap();
