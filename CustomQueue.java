@@ -11,7 +11,8 @@ public class CustomQueue {
         size = 0;
     }
 
-    public boolean isEmpty() {
+    public boolean isEmpty() 
+{
         return size == 0;
     }
 
