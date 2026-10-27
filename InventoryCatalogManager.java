@@ -5,6 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class InventoryCatalogManager 
 {
     // Configure benchmark settings.
+
     private static final int THREADS = 10;
     private static final int OPERATIONS = 50000;
     private static final int PRODUCTS = 1000;
