@@ -34,6 +34,7 @@ public class InventoryCatalogManager
     }
 
     // Benchmark a ConcurrentHashMap.
+
     public static void benchmarkConcurrentMap()
             throws InterruptedException {
 
