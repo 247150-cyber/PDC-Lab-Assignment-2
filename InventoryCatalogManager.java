@@ -10,7 +10,6 @@ public class InventoryCatalogManager
     private static final int PRODUCTS = 1000;
 
     // Create and initialize the product catalog.
-
     private static Map<String, Integer> createCatalog
 (Map<String, Integer> catalog) 
 {
