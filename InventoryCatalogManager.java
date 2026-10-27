@@ -2,7 +2,8 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class InventoryCatalogManager {
+public class InventoryCatalogManager 
+{
 
     // Configure benchmark settings.
     private static final int THREADS = 10;
@@ -108,7 +109,7 @@ public class InventoryCatalogManager {
             double throughput = completed.get() / seconds;
 
             // Display benchmark results.
-            System.out.println("\nBenchmark: " + name);
+            System.out.println("\nBenchmark=  " + name);
             System.out.println("Worker Threads: " + THREADS);
             System.out.println("Total Operations: " + completed.get());
 
