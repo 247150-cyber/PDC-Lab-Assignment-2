@@ -129,7 +129,6 @@ public class InventoryCatalogManager
         }
     }
 
-    // Entry point of the benchmark application.
     public static void main(String[] args)
             throws InterruptedException {
 
