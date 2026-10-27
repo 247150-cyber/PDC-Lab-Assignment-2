@@ -26,8 +26,7 @@ public class InventoryCatalogManager
             throws InterruptedException 
 {
 
-        Map<String, Integer> catalog =
-                Collections.synchronizedMap(
+        Map<String, Integer> catalog =Collections.synchronizedMap(
                         createCatalog(new HashMap<>()));
 
         runBenchmark("SynchronizedMap", catalog);
