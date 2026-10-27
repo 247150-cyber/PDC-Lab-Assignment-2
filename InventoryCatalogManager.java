@@ -23,7 +23,6 @@ public class InventoryCatalogManager
         }
         return catalog;
     }
-
     // Benchmark a synchronized HashMap.
     public static void benchmarkSynchronizedMap()
             throws InterruptedException 
