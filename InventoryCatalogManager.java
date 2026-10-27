@@ -24,7 +24,8 @@ public class InventoryCatalogManager
 
     // Benchmark a synchronized HashMap.
     public static void benchmarkSynchronizedMap()
-            throws InterruptedException {
+            throws InterruptedException 
+{
 
         Map<String, Integer> catalog =
                 Collections.synchronizedMap(
