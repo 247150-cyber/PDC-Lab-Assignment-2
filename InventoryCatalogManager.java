@@ -12,7 +12,8 @@ public class InventoryCatalogManager
 
     // Create and initialize the product catalog.
     private static Map<String, Integer> createCatalog
-(Map<String, Integer> catalog) {
+(Map<String, Integer> catalog) 
+{
 
         for (int i = 0; i < PRODUCTS; i++) {
             catalog.put("P" + i, 100);
